@@ -218,108 +218,18 @@ Text GLabel 4350 2350 1    50   Input ~ 0
 SWB2
 Text GLabel 1550 2450 0    50   Input ~ 0
 SWA2
-Text GLabel 1550 2650 0    50   Input ~ 0
+Text GLabel 1550 2550 0    50   Input ~ 0
 SWB1
-Text GLabel 1550 2750 0    50   Input ~ 0
+Text GLabel 1550 2650 0    50   Input ~ 0
 SWB2
 Text GLabel 2950 2350 2    50   Input ~ 0
 SWC1
 Text GLabel 2950 2450 2    50   Input ~ 0
 SWC2
-Text GLabel 2950 2650 2    50   Input ~ 0
+Text GLabel 2950 2550 2    50   Input ~ 0
 SWD1
-Text GLabel 2950 2750 2    50   Input ~ 0
+Text GLabel 2950 2650 2    50   Input ~ 0
 SWD2
 Text GLabel 4350 1950 1    50   Input ~ 0
 SWA2
-$Comp
-L Device:Rotary_Encoder_Switch SW_E1
-U 1 1 5E04A0CF
-P 5550 2300
-F 0 "SW_E1" H 5550 2667 50  0000 C CNN
-F 1 "Rotary_Encoder_Switch" H 5550 2576 50  0000 C CNN
-F 2 "" H 5400 2460 50  0001 C CNN
-F 3 "~" H 5550 2560 50  0001 C CNN
-	1    5550 2300
-	1    0    0    -1  
-$EndComp
-$Comp
-L Device:Rotary_Encoder_Switch SW_E2
-U 1 1 5E04C0DB
-P 5550 2950
-F 0 "SW_E2" H 5550 3317 50  0000 C CNN
-F 1 "Rotary_Encoder_Switch" H 5550 3226 50  0000 C CNN
-F 2 "" H 5400 3110 50  0001 C CNN
-F 3 "~" H 5550 3210 50  0001 C CNN
-	1    5550 2950
-	1    0    0    -1  
-$EndComp
-Text GLabel 2950 2550 2    50   Input ~ 0
-SWC3
-Text GLabel 2950 2850 2    50   Input ~ 0
-SWD3
-$Comp
-L power:GND #PWR?
-U 1 1 5E053B0E
-P 5850 2200
-F 0 "#PWR?" H 5850 1950 50  0001 C CNN
-F 1 "GND" V 5855 2072 50  0000 R CNN
-F 2 "" H 5850 2200 50  0001 C CNN
-F 3 "" H 5850 2200 50  0001 C CNN
-	1    5850 2200
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E0546A3
-P 5850 2850
-F 0 "#PWR?" H 5850 2600 50  0001 C CNN
-F 1 "GND" V 5855 2722 50  0000 R CNN
-F 2 "" H 5850 2850 50  0001 C CNN
-F 3 "" H 5850 2850 50  0001 C CNN
-	1    5850 2850
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E0555B2
-P 5250 2300
-F 0 "#PWR?" H 5250 2050 50  0001 C CNN
-F 1 "GND" V 5255 2172 50  0000 R CNN
-F 2 "" H 5250 2300 50  0001 C CNN
-F 3 "" H 5250 2300 50  0001 C CNN
-	1    5250 2300
-	0    1    1    0   
-$EndComp
-$Comp
-L power:GND #PWR?
-U 1 1 5E05630C
-P 5250 2950
-F 0 "#PWR?" H 5250 2700 50  0001 C CNN
-F 1 "GND" V 5255 2822 50  0000 R CNN
-F 2 "" H 5250 2950 50  0001 C CNN
-F 3 "" H 5250 2950 50  0001 C CNN
-	1    5250 2950
-	0    1    1    0   
-$EndComp
-Text GLabel 5250 2200 0    50   Input ~ 0
-Enc1A
-Text GLabel 5250 2400 0    50   Input ~ 0
-Enc1B
-Text GLabel 5850 2400 2    50   Input ~ 0
-SWC3
-Text GLabel 5850 3050 2    50   Input ~ 0
-SWD3
-Text GLabel 5250 2850 0    50   Input ~ 0
-Enc2A
-Text GLabel 5250 3050 0    50   Input ~ 0
-Enc2B
-Text GLabel 1550 2950 0    50   Input ~ 0
-Enc1A
-Text GLabel 1550 3050 0    50   Input ~ 0
-Enc1B
-Text GLabel 2950 2950 2    50   Input ~ 0
-Enc2A
-Text GLabel 2950 3050 2    50   Input ~ 0
-Enc2B
 $EndSCHEMATC
