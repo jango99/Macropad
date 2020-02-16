@@ -1,6 +1,6 @@
-# Bacropad
+# Ngotepad
 
-![Bacropad](INSERT IMAGE link HERE)
+![Ngotepad](INSERT IMAGE link HERE)
 
 a 4x2 macropad that supports two rotary encoders in the bottom right.
 
